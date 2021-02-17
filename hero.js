@@ -1,7 +1,7 @@
 class Hero {
     constructor(x,y,r){
         var options={
-            density:0.08,
+            density:0.2,
             frictionAir:1
 
         }
