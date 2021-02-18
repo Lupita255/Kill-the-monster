@@ -1,8 +1,8 @@
 class Hero {
     constructor(x,y,r){
         var options={
-            density:1,
-            frictionAir:0.005
+            frictionAir: 0.005,
+            density: 1
 
         }
         this.body=Bodies.rectangle(x,y,r,r,options)
